@@ -1,0 +1,184 @@
+@charset "utf-8";
+
+@media(min-width:1200px){
+	body{
+		background-color:#000000;
+		
+	/*Header*/
+	}
+	header{
+		height: 70px;
+		background-color:#000000;
+		border-bottom: 5px solid #006400;
+	}
+	
+	header h1{
+		font-family: 'Raleway', sans-serif;
+		font-size: 25pt;
+		color:#00FF00;
+		position: relative;
+		top:20px;
+		margin-left:10px;
+	}
+	
+	header nav{
+		position: relative;
+		width: 250px;
+		float: right;
+		margin-right:10px;
+	}
+	
+	header nav ul{
+		position: absolute;
+		top: -12px;
+		float: right;
+		display:flex;
+	}
+	
+	header nav ul li{
+		margin: 7px;
+	}
+	
+	header nav a{
+		text-decoration:none;
+		color:#F8F8FF;
+		font-size: 15pt;
+		font-family:'Raleway', sans-serif;
+	}
+	
+	header nav a:hover{
+		color:#00FA9A;
+		font-size: 15pt;
+	}
+	
+	/*About*/
+	section#About {
+		background-color:#C0C0C0;
+		padding:10px;
+	}
+	
+	section#About h2{
+		margin-bottom: 10px;
+		font-size: 18pt;
+		font-family:'Raleway', sans-serif;
+		text-align:center;
+	}
+	
+	section#About div#content{
+		position:relative;
+		width:600px;
+		margin: 0 auto;
+	}
+	
+	section#About div#content p{
+		text-align: justify;
+		font-size: 11pt;
+		font-family:'Raleway', sans-serif;
+	}
+	
+	/*Features*/
+	#s_features{ 
+		background-color:#C0C0C0;
+		padding:10px;
+		height: 300px;
+	}
+	
+	#s_features h2{
+		margin-bottom: 10px;
+		font-size: 18pt;
+		font-family:'Raleway', sans-serif;
+		text-align:center;
+	}
+	
+	div#d_features table#left{
+		float:left;
+		margin: 10px 0px 10px 15%;
+		border-collapse: separate;
+		border-spacing: 2px;
+	}
+	
+	div#d_features table#right{
+		float:right;
+		margin: 10px 10% 10px 0px;
+		border-collapse: separate;
+		border-spacing: 2px;
+	}
+	div#d_features table th{
+		text-align: left;
+		font-family:'Raleway', sans-serif;
+		font-size: 16pt;
+		background-color:#006400;		
+		padding:10px;
+		
+	}
+	
+	div#d_features table td{
+		font-family:'Raleway', sans-serif;
+		font-size: 14pt;
+		padding:8px;
+		text-align: center;
+	}
+	
+	div#d_features table tr:nth-child(even){
+  		background-color: #F8F8FF;
+	}
+	div#d_features table tr:nth-child(odd){
+  		background-color: #558581;
+	}
+	
+	/*Contact*/
+	#contact {
+		border-top: 5px solid #006400; 
+		color:#F8F8FF;
+		font-family:'Raleway', sans-serif;
+		background-color:#000000;
+		clear:both;
+	}
+	
+	#contact h2{
+		text-align: center;
+		color:#F8F8FF;
+		font-family:'Raleway', sans-serif;
+		font-size: 18pt;
+		padding:10px;
+		margin-bottom: 10px;
+	}
+	
+	#contact form{
+		width:70%;
+		margin: 0 auto;
+		padding:10px;
+	}
+	
+	#contact form input#btn{
+		background-color: darkgreen;
+		border:1px solid blue;
+	}
+	
+	#contact form input{
+		margin:5px;
+	}
+	
+	@-moz-document url-prefix() {
+		#contact form{
+			width:90%;
+			margin: 0 auto;
+			padding:10px;
+		}
+	}
+	
+	/*Footer*/
+	footer{
+		background-color:#000000;
+	}
+	
+	footer h3{
+		text-align: center;
+		color:#F8F8FF;
+		font-family:'Raleway', sans-serif;
+		font-size: 18pt;
+		padding:10px;
+		margin-bottom: 10px;
+	}
+	
+}

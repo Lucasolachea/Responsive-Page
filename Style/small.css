@@ -1,0 +1,189 @@
+@charset "utf-8";
+
+@media(min-width:150px) and (max-width:1000px){
+	
+	body{
+		background-color:#000000;
+	}
+    /*Header*/
+	header{
+		background-color:#000000;
+		border-bottom: 5px solid #006400;
+		padding:5px;
+	}
+	
+	header h1{
+		font-family: 'Raleway', sans-serif;
+		font-size: 35pt;
+		color:#00FF00;
+		position: relative;
+		text-align: center;
+	}
+	
+	
+	header nav ul{
+		margin: 15px auto;
+	}
+	
+	header nav ul li{
+		margin: 5px;
+		padding:5px;
+		background-color: darkturquoise;
+	}
+	
+	header nav ul li:hover{
+		background-color: chocolate;
+	}
+	
+	header nav a{
+		display:block;
+		text-decoration:none;
+		color:#F8F8FF;
+		font-size: 20pt;
+		font-family:'Raleway', sans-serif;
+		text-align: center;
+	}
+	
+	header nav a:hover{
+		color:#00FA9A;
+	}
+	
+	/*About*/
+	section#About {
+		background-color:#C0C0C0;
+		padding:10px;
+	}
+	
+	section#About h2{
+		margin-bottom: 10px;
+		font-size: 25pt;
+		font-family:'Raleway', sans-serif;
+		text-align:center;
+	}
+	
+	section#About div#content{
+		position:relative;
+		width:100%;
+		margin: 0 auto;
+	}
+	
+	section#About div#content p{
+		text-align: justify;
+		font-size: 15pt;
+		font-family:'Raleway', sans-serif;
+	}
+    
+	/*Features*/
+	#s_features{ 
+		background-color:#C0C0C0;
+		padding:10px;
+	}
+	
+	#s_features h2{
+		margin-bottom: 10px;
+		font-size: 25pt;
+		font-family:'Raleway', sans-serif;
+		text-align:center;
+	}
+	
+	div#d_features table#left{
+		width:100%;
+		margin: 0 auto;
+		border-collapse: separate;
+		border-spacing: 2px;
+		clear: both;
+	}
+	
+	div#d_features table#right{
+		width:100%;
+		margin: 10px auto;
+		border-collapse: separate;
+		border-spacing: 2px;
+	}
+	div#d_features table th{
+		text-align: left;
+		font-family:'Raleway', sans-serif;
+		font-size: 22pt;
+		background-color:#006400;
+		padding:8px;
+		
+	}
+	
+	div#d_features table td{
+		font-family:'Raleway', sans-serif;
+		font-size: 20pt;
+		padding:8px;
+		text-align: center;
+	}
+	
+	div#d_features table tr:nth-child(even){
+  		background-color: #F8F8FF;
+	}
+	div#d_features table tr:nth-child(odd){
+  		background-color: #558581;
+	}
+	
+	/*Contact*/
+	#contact {
+		border-top: 5px solid #006400; 
+		color:#F8F8FF;
+		font-family:'Raleway', sans-serif;
+		background-color:#000000;
+		clear:both;
+		width:100%;
+	}
+	
+	#contact h2{
+		text-align: center;
+		color:#F8F8FF;
+		font-family:'Raleway', sans-serif;
+		font-size: 25pt;
+		padding:10px;
+		margin-bottom: 10px;
+	}
+	
+	#contact form{
+		width:90%;
+		margin: 0 auto;
+		padding:10px;
+		color:#F8F8FF;
+		font-family:'Raleway', sans-serif;
+		font-size:15pt;
+	}
+	
+	#contact form label{
+		float:left;
+		clear: both;
+	}
+	
+	#contact form input{
+		width: 100%;
+		float:left;
+		margin:10px;
+		height: 40px;
+		clear: both;
+	}
+	
+	#contact form input#btn{
+		font-size: 16pt;
+		height: 40px;
+		background-color: darkgreen;
+		border:1px solid blue;
+	}
+	
+	/*Footer*/
+	footer{
+		background-color:#000000;
+	}
+	
+	footer h3{
+		text-align: center;
+		color:#F8F8FF;
+		font-family:'Raleway', sans-serif;
+		font-size: 18pt;
+		padding:10px;
+		margin-bottom: 10px;
+	}
+	
+}
+}
